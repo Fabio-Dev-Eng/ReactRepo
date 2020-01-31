@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Fines {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FineCard {
+  border: 2px solid dodgerblue;
+  padding: 12px;
+  width: 40%;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+}
+
+.FineCard.paid {
+  border-color: gray;
+  color: gray;
+}
+
+.FineCard.selected {
+  background: dodgerblue;
+  color: white;
+}
+
+.FineCard.selected.paid {
+  background: gray;
+}
+
+.FineCard h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.1ch;
+  margin: 0px;
+}
+
+/** /*<prep>{JSON.stringify(props,null)}</prep>*/*/
