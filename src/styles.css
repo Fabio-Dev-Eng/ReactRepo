@@ -38,4 +38,38 @@
   margin: 0px;
 }
 
-/** /*<prep>{JSON.stringify(props,null)}</prep>*/*/
+.MoveBox {
+  display: flex;
+  border: 1px solid;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0px 0px 30px;
+}
+
+.MoveBoxPanel {
+  width: 40%;
+}
+
+.Filters {
+  margin: 40px;
+}
+
+.MoveBoxPanelItem {
+  padding: 6px 12px;
+  border-bottom: 1px solid;
+}
+
+.MoveBoxPanelItem.selected {
+  background: dodgerblue;
+  color: white;
+}
+
+.MoveBoxTrack {
+  background: silver;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
